@@ -1,0 +1,33 @@
+.feesSection{
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+
+.fees{
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(99, 230, 190);
+}
+
+.courseName, .year{
+    font-size: 12px;
+    color: gray;
+}
+
+.compareCont{
+    display: flex;
+    color: orange;
+}
+
+.compareCont span{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.arrowCont{
+    display: flex;
+    align-items: center;
+    width: .6rem;
+    padding-top: 5px;
+}
